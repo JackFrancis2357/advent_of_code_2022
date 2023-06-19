@@ -1,0 +1,48 @@
+{
+    "name": "Existing Dockerfile",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "runArgs": [
+        "--memory=6g"
+    ],
+    "settings": {
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.python",
+            "editor.formatOnSaveMode": "file",
+            "editor.formatOnSave": true,
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": true
+            }
+        },
+        "window.zoomLevel": 0,
+        "python.formatting.provider": "black",
+        "python.linting.flake8Enabled": true,
+        "python.linting.flake8Args": [
+            "--max-line-length=120"
+        ],
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#067416"
+        },
+        "files.autoSave": "afterDelay",
+        "workbench.colorTheme": "Dracula",
+        "dev.containers.copyGitConfig": true
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "almenon.arepl",
+        "njpwerner.autodocstring",
+        "ms-python.black-formatter",
+        "dracula-theme.theme-dracula",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense",
+        "kevinrose.vsc-python-indent",
+        "2gua.rainbow-brackets",
+        "ms-azuretools.vscode-docker",
+        "mhutchie.git-graph",
+        "mechatroner.rainbow-csv",
+        "usernamehw.errorlens",
+        "aaron-bond.better-comments"
+    ]
+}
